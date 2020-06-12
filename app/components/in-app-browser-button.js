@@ -1,5 +1,5 @@
 import Component from '@glimmer/component';
-import { action } from '@ember/object';
+import { action } from '@ember-decorators/object';
 
 export default class PeopleListComponent extends Component {
   @action
