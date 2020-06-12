@@ -47,5 +47,9 @@
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
+  },
+  "dependencies": {
+    "corber": "^1.4.2",
+    "corber-ember-livereload": "0.0.2"
   }
 }
