@@ -2,7 +2,9 @@ export function initialize() {
   document.addEventListener('deviceready', onDeviceReady, false);
 }
 function onDeviceReady() {
-  console.log(StatusBar);
-  StatusBar.overlaysWebView(false);
-  StatusBar.styleLightContent();
+  const statusBarPlugin = window.StatusBar;
+  console.log(statusBarPlugin);
+  statusBarPlugin.overlaysWebView(false);
+  statusBarPlugin.styleLightContent();
+  statusBarPlugin.backgroundColorByHexString("#281e36");
 }
